@@ -28,10 +28,9 @@
 ## 📍 Start Here
 
 > **New to SOC?** Read these two documents first — they'll guide you through everything else.
->
+
 
 | | Document | English |
-|:---:|:---|:---:|:---:|
 | 1️⃣ | **SOC 101** — SOC  | [Read](00_Getting_Started/SOC_101.en.md) |
 | 2️⃣ | **Quickstart Guide** — SOC | [Read](00_Getting_Started/Quickstart_Guide.en.md)  |
 | 📖 | **Glossary** | [Read](00_Getting_Started/Glossary.en.md) | 
@@ -39,7 +38,6 @@
 ### Role-Based Entry Paths 
 
 | Role | English | 
-|:---|:---:|:---:|
 | **CISO / Security Director** | [Read](00_Getting_Started/CISO_Entry_Path.en.md) | 
 | **SOC Manager / SOC Lead** | [Read](00_Getting_Started/SOC_Manager_Entry_Path.en.md) |
 | **SOC Analyst** | [Read](00_Getting_Started/SOC_Analyst_Entry_Path.en.md) |
@@ -51,8 +49,7 @@
 ## 📊 What's Inside / 
 
 | Category | Count | Highlights |
-|:---|:---:|:---|
-| 📄 Documents (EN+TH) | 341 | Bilingual, vendor-agnostic SOPs |
+| 📄 Documents (EN) | 341 | English, vendor-agnostic SOPs |
 | 🛡️ IR Playbooks | 53 | PB-01 Phishing → PB-53 AI Model Theft, MITRE/ATLAS mapped |
 | 🔍 Sigma Detection Rules | 54 | Ready-to-import SIEM rules |
 | 🧬 YARA Rules | 15 | File-based threat detection |
@@ -66,8 +63,7 @@
 
 Start here if you're building a brand-new SOC. Follow the numbered order.
 
-| # | Document | English | ภาษาไทย |
-|:---:|:---|:---:|:---:|
+| # | Document | English |
 | 1 | **SOC Building Roadmap** 🗺️ | [Read](01_SOC_Fundamentals/SOC_Building_Roadmap.en.md) |
 | 2 | **Budget & Staffing** 💰 | [Read](01_SOC_Fundamentals/Budget_Staffing.en.md) |
 | 3 | **Technology Stack Selection** 🔧 | [Read](01_SOC_Fundamentals/Technology_Stack.en.md) | 
@@ -78,38 +74,38 @@ Start here if you're building a brand-new SOC. Follow the numbered order.
 
 ---
 
-## 🛡️ Incident Response / การตอบสนองต่อเหตุการณ์
+## 🛡️ Incident Response 
 
-### Core Framework / กรอบงานหลัก
+### Core Framework 
 
-| Document | English | ภาษาไทย |
-|:---|:---:|:---:|
-| **IR Framework** (NIST-based) | [Read](05_Incident_Response/Framework.en.md) | [อ่าน](05_Incident_Response/Framework.th.md) |
-| **Severity Matrix** (P1–P4) | [Read](05_Incident_Response/Severity_Matrix.en.md) | [อ่าน](05_Incident_Response/Severity_Matrix.th.md) |
-| **📋 Incident Classification** | [Read](05_Incident_Response/Incident_Classification.en.md) | [อ่าน](05_Incident_Response/Incident_Classification.th.md) |
-| **🚨 Escalation Matrix** | [Read](05_Incident_Response/Escalation_Matrix.en.md) | [อ่าน](05_Incident_Response/Escalation_Matrix.th.md) |
-| **Tier 1 Runbook** — Alert Triage | [Read](05_Incident_Response/Runbooks/Tier1_Runbook.en.md) | [อ่าน](05_Incident_Response/Runbooks/Tier1_Runbook.th.md) |
-| **Tier 2 Runbook** — Investigation | [Read](05_Incident_Response/Runbooks/Tier2_Runbook.en.md) | [อ่าน](05_Incident_Response/Runbooks/Tier2_Runbook.th.md) |
-| **Tier 3 Runbook** — Threat Hunting | [Read](05_Incident_Response/Runbooks/Tier3_Runbook.en.md) | [อ่าน](05_Incident_Response/Runbooks/Tier3_Runbook.th.md) |
-| **Communication Templates** (6) | [Read](05_Incident_Response/Communication_Templates.en.md) | [อ่าน](05_Incident_Response/Communication_Templates.th.md) |
+| Document | English |
 
-### Investigation & Evidence / การสืบสวนและหลักฐาน
+| **IR Framework** (NIST-based) | [Read](05_Incident_Response/Framework.en.md) | 
+| **Severity Matrix** (P1–P4) | [Read](05_Incident_Response/Severity_Matrix.en.md) | 
+| **📋 Incident Classification** | [Read](05_Incident_Response/Incident_Classification.en.md) | 
+| **🚨 Escalation Matrix** | [Read](05_Incident_Response/Escalation_Matrix.en.md) |
+| **Tier 1 Runbook** — Alert Triage | [Read](05_Incident_Response/Runbooks/Tier1_Runbook.en.md) | 
+| **Tier 2 Runbook** — Investigation | [Read](05_Incident_Response/Runbooks/Tier2_Runbook.en.md) | 
+| **Tier 3 Runbook** — Threat Hunting | [Read](05_Incident_Response/Runbooks/Tier3_Runbook.en.md) | 
+| **Communication Templates** (6) | [Read](05_Incident_Response/Communication_Templates.en.md) | 
 
-| Document | English | ภาษาไทย |
-|:---|:---:|:---:|
-| **🔬 Forensic Investigation** | [Read](05_Incident_Response/Forensic_Investigation.en.md) | [อ่าน](05_Incident_Response/Forensic_Investigation.th.md) |
-| **Evidence Collection** | [Read](05_Incident_Response/Evidence_Collection.en.md) | [อ่าน](05_Incident_Response/Evidence_Collection.th.md) |
-| **🎯 Threat Hunting Playbook** | [Read](05_Incident_Response/Threat_Hunting_Playbook.en.md) | [อ่าน](05_Incident_Response/Threat_Hunting_Playbook.th.md) |
-| **Interview Guide** (T1/T2/Lead) | [Read](05_Incident_Response/Interview_Guide.en.md) | [อ่าน](05_Incident_Response/Interview_Guide.th.md) |
+### Investigation & Evidence / 
 
-### Recovery & Automation / การกู้คืนและอัตโนมัติ
+| Document | English |
 
-| Document | English | ภาษาไทย |
-|:---|:---:|:---:|
-| **🏥 Disaster Recovery / BCP** | [Read](05_Incident_Response/Disaster_Recovery_BCP.en.md) | [อ่าน](05_Incident_Response/Disaster_Recovery_BCP.th.md) |
-| **SOAR Playbook Templates** (6) | [Read](05_Incident_Response/SOAR_Playbooks.en.md) | [อ่าน](05_Incident_Response/SOAR_Playbooks.th.md) |
-| **Lessons Learned Template** | [Read](05_Incident_Response/Lessons_Learned_Template.en.md) | [อ่าน](05_Incident_Response/Lessons_Learned_Template.th.md) |
-| **📘 Playbook Development Guide** | [Read](05_Incident_Response/Playbook_Development_Guide.en.md) | [อ่าน](05_Incident_Response/Playbook_Development_Guide.th.md) |
+| **🔬 Forensic Investigation** | [Read](05_Incident_Response/Forensic_Investigation.en.md) 
+| **Evidence Collection** | [Read](05_Incident_Response/Evidence_Collection.en.md) | 
+| **🎯 Threat Hunting Playbook** | [Read](05_Incident_Response/Threat_Hunting_Playbook.en.md) | 
+| **Interview Guide** (T1/T2/Lead) | [Read](05_Incident_Response/Interview_Guide.en.md) |
+
+### Recovery & Automation /
+
+| Document | English | 
+
+| **🏥 Disaster Recovery / BCP** | [Read](05_Incident_Response/Disaster_Recovery_BCP.en.md) |
+| **SOAR Playbook Templates** (6) | [Read](05_Incident_Response/SOAR_Playbooks.en.md) | 
+| **Lessons Learned Template** | [Read](05_Incident_Response/Lessons_Learned_Template.en.md) |
+| **📘 Playbook Development Guide** | [Read](05_Incident_Response/Playbook_Development_Guide.en.md) |
 
 ### 53 Playbooks — Grouped by Category
 
@@ -118,8 +114,8 @@ All playbooks are bilingual (EN+TH) and MITRE ATT&CK mapped.
 <details>
 <summary><b>📧 Email & Social Engineering</b> — Phishing, BEC, account takeover, deepfake</summary>
 
-| # | Playbook | EN | TH |
-|:---:|:---|:---:|:---:|
+| # | Playbook | EN |
+
 | 01 | Phishing | [📄](05_Incident_Response/Playbooks/Phishing.en.md) | [📄](05_Incident_Response/Playbooks/Phishing.th.md) |
 | 17 | Business Email Compromise | [📄](05_Incident_Response/Playbooks/BEC.en.md) | [📄](05_Incident_Response/Playbooks/BEC.th.md) |
 | 42 | Email Account Takeover | [📄](05_Incident_Response/Playbooks/Email_Account_Takeover.en.md) | [📄](05_Incident_Response/Playbooks/Email_Account_Takeover.th.md) |
