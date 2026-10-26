@@ -5,8 +5,7 @@
 <h1 align="center">SOC Standard Operating Procedures</h1>
 
 <p align="center">
-  <b>Vendor-agnostic SOC SOPs — Bilingual EN/TH — Build a SOC from Zero</b><br>
-  ระเบียบปฏิบัติมาตรฐานสำหรับ SOC — ภาษาอังกฤษ/ไทย — สร้าง SOC ตั้งแต่ศูนย์
+  <b>Vendor-agnostic SOC SOPs — English EN — Build a SOC from Zero</b><br>
 </p>
 
 <p align="center">
@@ -26,31 +25,30 @@
 
 ---
 
-## 📍 Start Here / เริ่มต้นที่นี่
+## 📍 Start Here
 
 > **New to SOC?** Read these two documents first — they'll guide you through everything else.
 >
-> **เพิ่งเริ่มต้น?** อ่าน 2 เอกสารนี้ก่อน แล้วจะรู้ว่าต้องอ่านอะไรต่อ
 
-| | Document | English | ภาษาไทย |
+| | Document | English |
 |:---:|:---|:---:|:---:|
-| 1️⃣ | **SOC 101** — SOC คืออะไร? | [Read](00_Getting_Started/SOC_101.en.md) | [อ่าน](00_Getting_Started/SOC_101.th.md) |
-| 2️⃣ | **Quickstart Guide** — สร้าง SOC ใน 30 นาที | [Read](00_Getting_Started/Quickstart_Guide.en.md) | [อ่าน](00_Getting_Started/Quickstart_Guide.th.md) |
-| 📖 | **Glossary** — คำศัพท์ที่ต้องรู้ | [Read](00_Getting_Started/Glossary.en.md) | [อ่าน](00_Getting_Started/Glossary.th.md) |
+| 1️⃣ | **SOC 101** — SOC  | [Read](00_Getting_Started/SOC_101.en.md) |
+| 2️⃣ | **Quickstart Guide** — SOC | [Read](00_Getting_Started/Quickstart_Guide.en.md)  |
+| 📖 | **Glossary** | [Read](00_Getting_Started/Glossary.en.md) | 
 
-### Role-Based Entry Paths / เส้นทางเริ่มต้นตามบทบาท
+### Role-Based Entry Paths 
 
-| Role | English | ภาษาไทย |
+| Role | English | 
 |:---|:---:|:---:|
-| **CISO / Security Director** | [Read](00_Getting_Started/CISO_Entry_Path.en.md) | [อ่าน](00_Getting_Started/CISO_Entry_Path.th.md) |
-| **SOC Manager / SOC Lead** | [Read](00_Getting_Started/SOC_Manager_Entry_Path.en.md) | [อ่าน](00_Getting_Started/SOC_Manager_Entry_Path.th.md) |
-| **SOC Analyst** | [Read](00_Getting_Started/SOC_Analyst_Entry_Path.en.md) | [อ่าน](00_Getting_Started/SOC_Analyst_Entry_Path.th.md) |
-| **Security Engineer / Detection Engineer** | [Read](00_Getting_Started/Security_Engineer_Entry_Path.en.md) | [อ่าน](00_Getting_Started/Security_Engineer_Entry_Path.th.md) |
-| **IR Engineer / Incident Responder** | [Read](00_Getting_Started/IR_Engineer_Entry_Path.en.md) | [อ่าน](00_Getting_Started/IR_Engineer_Entry_Path.th.md) |
+| **CISO / Security Director** | [Read](00_Getting_Started/CISO_Entry_Path.en.md) | 
+| **SOC Manager / SOC Lead** | [Read](00_Getting_Started/SOC_Manager_Entry_Path.en.md) |
+| **SOC Analyst** | [Read](00_Getting_Started/SOC_Analyst_Entry_Path.en.md) |
+| **Security Engineer / Detection Engineer** | [Read](00_Getting_Started/Security_Engineer_Entry_Path.en.md) | 
+| **IR Engineer / Incident Responder** | [Read](00_Getting_Started/IR_Engineer_Entry_Path.en.md) |
 
 ---
 
-## 📊 What's Inside / สิ่งที่มีในโปรเจกต์นี้
+## 📊 What's Inside / 
 
 | Category | Count | Highlights |
 |:---|:---:|:---|
@@ -64,19 +62,19 @@
 
 ---
 
-## 🏗️ Building a SOC from Zero / สร้าง SOC ตั้งแต่ศูนย์
+## 🏗️ Building a SOC from Zero / 
 
 Start here if you're building a brand-new SOC. Follow the numbered order.
 
 | # | Document | English | ภาษาไทย |
 |:---:|:---|:---:|:---:|
-| 1 | **SOC Building Roadmap** 🗺️ | [Read](01_SOC_Fundamentals/SOC_Building_Roadmap.en.md) | [อ่าน](01_SOC_Fundamentals/SOC_Building_Roadmap.th.md) |
-| 2 | **Budget & Staffing** 💰 | [Read](01_SOC_Fundamentals/Budget_Staffing.en.md) | [อ่าน](01_SOC_Fundamentals/Budget_Staffing.th.md) |
-| 3 | **Technology Stack Selection** 🔧 | [Read](01_SOC_Fundamentals/Technology_Stack.en.md) | [อ่าน](01_SOC_Fundamentals/Technology_Stack.th.md) |
-| 4 | **Infrastructure Setup** 🖥️ | [Read](01_SOC_Fundamentals/Infrastructure_Setup.en.md) | [อ่าน](01_SOC_Fundamentals/Infrastructure_Setup.th.md) |
-| 5 | **Use Case Prioritization** 🎯 | [Read](01_SOC_Fundamentals/Use_Case_Prioritization.en.md) | [อ่าน](01_SOC_Fundamentals/Use_Case_Prioritization.th.md) |
-| 6 | **Analyst Training Path** (6 months) 🎓 | [Read](01_SOC_Fundamentals/Analyst_Training_Path.en.md) | [อ่าน](01_SOC_Fundamentals/Analyst_Training_Path.th.md) |
-| 7 | **SOC Infrastructure Activation** ⚡ | [Read](10_Training_Onboarding/System_Activation.en.md) | [อ่าน](10_Training_Onboarding/System_Activation.th.md) |
+| 1 | **SOC Building Roadmap** 🗺️ | [Read](01_SOC_Fundamentals/SOC_Building_Roadmap.en.md) |
+| 2 | **Budget & Staffing** 💰 | [Read](01_SOC_Fundamentals/Budget_Staffing.en.md) |
+| 3 | **Technology Stack Selection** 🔧 | [Read](01_SOC_Fundamentals/Technology_Stack.en.md) | 
+| 4 | **Infrastructure Setup** 🖥️ | [Read](01_SOC_Fundamentals/Infrastructure_Setup.en.md) | 
+| 5 | **Use Case Prioritization** 🎯 | [Read](01_SOC_Fundamentals/Use_Case_Prioritization.en.md) | 
+| 6 | **Analyst Training Path** (6 months) 🎓 | [Read](01_SOC_Fundamentals/Analyst_Training_Path.en.md) | 
+| 7 | **SOC Infrastructure Activation** ⚡ | [Read](10_Training_Onboarding/System_Activation.en.md) |
 
 ---
 
